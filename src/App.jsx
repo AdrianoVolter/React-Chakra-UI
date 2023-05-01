@@ -1,7 +1,7 @@
 import { Header } from "./components/commons/Header"
-import { VerticalCard } from "./components/card/VerticalCard"
+import { HorizontalCard } from "./components/card/HorizontalCard"
 import { Center } from "@chakra-ui/react"
-import { vertical_cards} from "./components-mock.json"
+import { horizontal_cards} from "./components-mock.json"
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <>
       <Header />
       <Center >
-       {vertical_cards.map((card) => (
-         <VerticalCard 
+       {horizontal_cards.map((card) => (
+         <HorizontalCard 
           key={card.id} 
           card={card} 
         />
