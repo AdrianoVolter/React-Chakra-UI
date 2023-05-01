@@ -25,7 +25,7 @@ export function VerticalCard ({card}){
                 p="16px"
                 spacing="16px"
                 maxW="350px"
-                maxH="200px"
+                minW="200px"
                 h="400px"
             >
                 <Text variant="subtitle">{card.published_date}</Text>

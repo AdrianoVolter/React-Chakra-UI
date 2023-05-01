@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Center>
+      <Center >
        {vertical_cards.map((card) => (
          <VerticalCard 
           key={card.id} 
