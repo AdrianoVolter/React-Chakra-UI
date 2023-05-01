@@ -2,7 +2,7 @@ import { Flex , Image, VStack , Text, Heading} from "@chakra-ui/react";
 import { custonScrollbar } from "../../styles/styles";
 
 
-export function VerticalCard ({card}){
+export function HorizontalCard ({card}){
 
     return (
         <Flex
